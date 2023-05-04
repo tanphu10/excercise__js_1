@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bài tập JS</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- bài tập 1 tính tiền lương nhân viên  -->
+    <!-- card  -->
+    <div class="container my-5">
+        <div class="class d-flex justify-content-center">
+            <div class="card w-50">
+                <div class="card-header" style="background-color: brown; color: white;">
+                    Tính Tiền Lương Nhân Viên
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label for="soNgayLam" class="form-label">Số ngày làm của nhân viên</label>
+                        <input type="text" class="form-control" id="soNgayLam">
+                    </div>
+                    <!-- <div class="mb-3">
+          <label for="tienLuong1Ngay" class="form-label">Tiền Lương 1 ngày của nhân viên</label>
+          <input type="text" class="form-control" id="tienLuong1Ngay">
+        </div> -->
+                    <div class="mb-3">
+                        <button id="btnTinhTienLuong" class="btn btn-danger">Tính tiền</button>
+                    </div>
+                </div>
+                <div class="card-footer text-muted" id="hienThiTien">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bài tập số 2 nhập 5 số chia và lấy số trung bình   -->
+    <div class="container my-5">
+        <div class=" d-flex justify-content-center">
+            <div class="card w-50">
+                <div class="card-header" style="background-color: rgb(29, 155, 80); color: white;font-weight: 500;">
+                    Tính giá trị trung bình 
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label for="nhapLanMot" class="form-label">Nhập số lần 1</label>
+                        <input type="text" class="form-control" id="nhapLanMot">
+                    </div>
+                    <div class="mb-3">
+                        <label for="nhapLanHai" class="form-label">Nhập số lần 2</label>
+                        <input type="text" class="form-control" id="nhapLanHai">
+                    </div>
+                    <div class="mb-3">
+                        <label for="nhapLanBa" class="form-label">Nhập số lần 3</label>
+                        <input type="text" class="form-control" id="nhapLanBa">
+                    </div>
+                    <div class="mb-3">
+                        <label for="nhapLanBon" class="form-label">Nhập số lần 4</label>
+                        <input type="text" class="form-control" id="nhapLanBon">
+                    </div>
+                    <div class="mb-3">
+                        <label for="nhapLanNam" class="form-label">Nhập số lần 5</label>
+                        <input type="text" class="form-control" id="nhapLanNam">
+                    </div>
+                    <div class="mb-3">
+                        <button id="btnTrungBinh" class="btn btn-danger">Tính giá Trị Trung Bình </button>
+                    </div>
+                    <div class="card-footer text-muted" id="hienThiTrungBinh">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bài tập 3 quy đổi tiền đô -->
+    <div class="container my-5">
+        <div class=" d-flex justify-content-center">
+            <div class="card w-50">
+                <div class="card-header" style="background-color: burlywood; color: crimson;font-weight: 500;">
+                    Bảng qui đổi tiền USD-VND
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label for="nhapSoTien" class="form-label">Nhập tiền USD</label>
+                        <input type="text" class="form-control" id="nhapSoTien">
+                    </div>
+                    <div class="mb-3">
+                        <button id="btnQuyDoiTien" class="btn btn-success">Chuyển đổi</button>
+                    </div>
+                    <div class="card-footer text-muted" id="hienThiVND">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- bài tập số 4 tính chu vi và diện tích của 1 hình chữ nhật  -->
+
+    <div class="container">
+        <div class="d-flex justify-content-center">
+            <div class="card w-50">
+                <div class="card-header" style="background-color: rgba(20, 20, 107, 0.922) ;color: yellow;">
+                    Tính chu vi và Diện tích hình chữ nhật
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label for="nhapChieuDai" class="form-label"> Nhập Chiều Dài</label>
+                        <input type="text" class="form-control" id="nhapChieuDai">
+                    </div>
+                    <div class="mb-3">
+                        <label for="nhapChieuRong" class="form-label"> Nhập Chiều Rộng</label>
+                        <input type="text" class="form-control" id="nhapChieuRong">
+                    </div>
+                    <div class="mb-3">
+                        <button id="btnKetQua" class="btn btn-primary">Kết Quả</button>
+                    </div>
+                </div>
+                <div class="card-footer text-muted" id="hienThiKetQua">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- bài tập số 5 tính tổng 2 kí Số  -->
+    <div class="container my-5">
+        <div class=" d-flex justify-content-center">
+            <div class="card w-50">
+                <div class="card-header" style="background-color: burlywood; color: crimson;font-weight: 500;">
+                    Tổng 2 kí số 
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label for="nhapSoLieu" class="form-label">Nhập số</label>
+                        <input type="text" class="form-control" id="nhapSoLieu">
+                    </div>
+                    <div class="mb-3">
+                        <button id="btnKiSo" class="btn btn-success">Kết quả</button>
+                    </div>
+                    <div class="card-footer text-muted" id="hienThiKiSo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
